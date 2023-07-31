@@ -1,6 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home/home';
+import About from './pages/About/about';
 // import Timeline from './pages/Timeline/timeline';
 import Footer from './components/Footer/footer';
 import Projects from './pages/Projects/projects';
@@ -15,7 +16,7 @@ function App() {
           <div className="body">
             <Routes>
               <Route exact path="/" component={Home}/>
-              {/* <Route path="/about" component={About}/> */}
+              <Route path="/about" component={About}/>
               <Route path="/background" component={Background}/>
               {/* <Route path="/timeline" component={Timeline}/> */}
               <Route path="/projects" component={Projects}/>

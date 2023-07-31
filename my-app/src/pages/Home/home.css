@@ -1,0 +1,147 @@
+.home {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+  
+.Intro {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+
+  }
+  #intro-ends {
+    content:'';
+  }
+  .Name {
+    font-family: 'lemonde-journal', serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 72px;
+    margin-top: 40vh;
+    cursor: default;
+  }
+  .intro-text {
+    position: fixed;
+    will-change: transform;
+  }
+  .Greeting {
+    margin-top: 30px;
+    top: 20vh;
+    height: fit-content;
+    text-align: center;
+    max-width: 615px;
+    word-spacing: 1.6px;
+  }
+  
+  .about-section {
+    width: 100%;
+    height: fit-content;
+  }
+  #about-ends {
+    content:'';
+  }
+  .about-component {
+    z-index: 3;
+    height: fit-content;
+    padding-bottom: 10vh;
+  }
+  .angle-border {
+    z-index: 2;
+    content:'';
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 10vh);
+    background-color: #ffffff;
+    transform: skewY(4deg);
+  }
+  .about-inner {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+  }
+  
+  .projects-section {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background-color: white;
+  }
+  
+  .projects-component {
+    z-index: 5;
+    height: fit-content;
+  }
+  .angle-border {
+    z-index: 4;
+    content:'';
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    transform: skewY(4deg);
+  }
+
+  .t4g {
+    font-weight: 800;
+    transition: 0.2s;
+  }
+  .t4g:hover {
+    font-weight: 400;
+    color: #6ea6fb;
+  }
+  
+  .creativity {
+    font-weight: 800;
+    transition: 0.2s;
+  }
+  .creativity:hover {
+    font-weight: 400;
+    color: #9c9a99;
+  }
+  
+  @media screen and (max-width: 1080px) {
+    .Intro {
+      margin-bottom: 4.132231404958677vw;
+    }
+    .Name {
+        font-size: 11.8vw;
+      }
+      .Greeting {
+        width: 56vw;
+      }
+    
+  }
+  
+  @media screen and (max-width: 720px) {
+    .Intro {
+      align-items: center;
+
+    }
+    .intro-text {
+    
+      }
+      .Name {
+        font-size: 14vw;
+      }
+      .Greeting {
+        width: 80vw;
+      }
+      h6 {
+        font-size: 16px;
+      }
+      
+  }

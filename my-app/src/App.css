@@ -1,38 +1,83 @@
 .App {
-  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow-x: hidden;
+
+  font-size: calc(10px + 2vmin);
+  color: #1D1D1D;
+  font-family: 'pt-sans-pro', sans-serif;
+  
 }
+
+.body {
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
-  color: #61dafb;
+  color: #1D1D1D;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover, a:visited, a:link, a:active {
+  color:#1D1D1D;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'lemonde-journal', serif;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: 'lemonde-journal', serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 0.4em 0;
+}
+
+h3 {
+  font-family: 'lemonde-journal', serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38px;
+  line-height: 1.2em;
+  margin: 0;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 10px 0;
+  margin: 0;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2em;
+  padding: 10px 0;
+  margin: 0;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75em;
 }
