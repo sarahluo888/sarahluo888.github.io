@@ -1,12 +1,19 @@
 html {
     scroll-behavior: smooth;
+    font-family: "pt-sans-pro",sans-serif;
 }
 
 body {
     background-color: white;
+    font-family: 'PT Sans', sans-serif;
 }
 
 p { margin: 1.5px; }
+
+h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
+}
 
 .navbar {
     background-color: white;
@@ -15,7 +22,8 @@ p { margin: 1.5px; }
     top: 0;
     z-index: 100;
     width: 100%;
-    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+    font-family: 'PT Sans', sans-serif;
+    /* font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;  */
 }
 
 .navbar-nav.left-link {
@@ -34,6 +42,7 @@ p { margin: 1.5px; }
 
 .footer-icons a {
     margin-right: 38px; /* Adjust the margin value as needed */
+    font-family: 'PT Sans', sans-serif;
 }
 
 .parent .box.link {
@@ -81,7 +90,8 @@ p { margin: 1.5px; }
 }
 
 @font-face{
-    font-family: 'JetBrainsMono';
+    /* font-family: 'JetBrainsMono'; */
+    font-family: 'PT Sans', sans-serif;
     src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
       url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff'),
       url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype');
@@ -91,35 +101,39 @@ p { margin: 1.5px; }
 
 .name-title{
     margin-top: 12%;
-    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+    font-family: "pt-sans-pro",sans-serif;
+    /* font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;  */
     font-weight: bold;
     font-size: 45px;
 }
 
 .subtitle{
     /* font-family: 'JetBrainsMono', Arial, sans-serif; */
-    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+    /* font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;  */
+    font-family: 'PT Sans', sans-serif;
 }
 
 .subtitle-2{
     /* font-family: 'JetBrainsMono', Arial, sans-serif; */
-    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+    /* font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;  */
     font-size: large;
-   
+    font-family: 'PT Sans', sans-serif;
 }
 
 .projects {
     /* font-family: 'JetBrainsMono', Arial, sans-serif; */
-    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+    /* font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;  */
     padding-top: 40px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .projects h1 {
     margin-top: 6%;
     /* font-family: 'JetBrainsMono', Arial, sans-serif; */
-    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+    /* font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;  */
     font-weight: bold;
     font-size: 32px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .gradient-text { 
@@ -131,8 +145,9 @@ background: linear-gradient(to right, #FFB026 14%, #DE7233 100%);
 
 button {
     /* font-family: 'JetBrainsMono', Arial, sans-serif; */
-    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+    /* font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;  */
     font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
   }
 
 img {
@@ -145,6 +160,7 @@ img {
     background-color: #fafafa;
     padding-bottom: 2%;
     text-align: center;
+    font-family: "pt-sans-pro",sans-serif;
     /* font-family: 'JetBrainsMono', Arial, sans-serif; */
     color: black;
 }
@@ -486,8 +502,9 @@ main.row {
 .extra-links {
     font-size: 16px;
     font-weight: bolder;
-    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    /* font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; */
     text-decoration: underline;
+    font-family: "pt-sans-pro",sans-serif;
     margin-right: 3.5%;
     margin-top: 1%;
 }
