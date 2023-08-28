@@ -46,7 +46,7 @@ h3 {
 }
 
 .parent .box.link {
-    background: url("public/images/bitmap2.png") no-repeat 0 0;
+    /* background: url("public/images/bitmap2.png") no-repeat 0 0; */
     background-size: 50%;
     background-position-x: center;
     background-position-y: 100px;
@@ -96,12 +96,14 @@ h3 {
   } */
 
 .name-title{
-    margin-top: 31%;
+    margin-top: 36%;
     margin-bottom: 19%;
     font-family: "pt-sans-pro",sans-serif;
     /* font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;  */
     font-weight: bold;
     font-size: 70px;
+    /* display: flex; */
+    align-items: center;
 }
 
 .subtitle{
@@ -119,6 +121,19 @@ h3 {
     max-width: 50ch;
     font-family: 'PT Sans', sans-serif;
 }
+
+.profile-picture {
+    width: 280px; 
+    height: auto; 
+    border-radius: 40%;
+    margin-top: 40%;
+  }
+
+
+.bold-white-word {
+    font-weight: bold;
+    text-decoration: none; /* removes underlines from the link */
+  }
 
 .projects {
     /* font-family: 'JetBrainsMono', Arial, sans-serif; */
@@ -176,7 +191,9 @@ img {
 
 .box{
     border-radius: 20px;
-    margin-bottom: 1.5%;
+    /* margin-bottom: 1.5%;
+    margin-top: 3%; */
+    margin: 3%;
     width: 271px;
     height: 220px;
     display: inline-block;
