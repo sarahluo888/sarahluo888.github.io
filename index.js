@@ -115,6 +115,15 @@ function lightMode (){
     for (let box of linkBox){
         box.style.color = "black";
     }
+    for (let box of linkWBox){
+      box.style.color = "black";
+    } 
+    for (let box of linkPWBox){
+      box.style.color = "black";
+    } 
+    for (let box of linkPFVBox){
+      box.style.color = "black";
+    } 
     for (let box of box1) {
         box.style.transition = "none"
         box.style.backgroundColor = "white";
