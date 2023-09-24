@@ -9,6 +9,9 @@ var boxPublication = document.getElementsByClassName("box-publication");
 var boxEXP = document.getElementsByClassName("box-exp");
 var nightIcon = document.getElementById("night-icon");
 var linkBox = document.getElementsByClassName("link");
+var linkWBox = document.getElementsByClassName("linkW");
+var linkPFVBox = document.getElementsByClassName("linkPFV");
+var linkPWBox = document.getElementsByClassName("linkPW");
 var boxLabel = document.getElementsByClassName("box-label");
 var boxDoc = document.getElementById("box-doc");
 
@@ -46,6 +49,15 @@ function nightMode (){
         for (let box of linkBox){
             box.style.color = "white";
         }
+        for (let box of linkWBox){
+          box.style.color = "white";
+        } 
+        for (let box of linkPWBox){
+          box.style.color = "white";
+        } 
+        for (let box of linkPFVBox){
+          box.style.color = "white";
+        } 
         for (let box of box1) {
             box.style.transition = "none"
             box.style.backgroundColor = "#272b30";
