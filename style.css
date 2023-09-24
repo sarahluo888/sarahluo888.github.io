@@ -106,6 +106,30 @@ h3 {
     text-decoration:none
 }
 
+.linkW
+{
+   color:black;
+   text-decoration: none; 
+   background-color: none;
+}
+
+.linkW:hover{
+    color: black;
+    text-decoration:none
+}
+
+.linkPW
+{
+   color:black;
+   text-decoration: none; 
+   background-color: none;
+}
+
+.linkPW:hover{
+    color: black;
+    text-decoration:none
+}
+
 .left-link {
     margin-left: 28%
 }
