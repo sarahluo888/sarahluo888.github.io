@@ -11,6 +11,7 @@ var nightIcon = document.getElementById("night-icon");
 var linkBox = document.getElementsByClassName("link");
 var linkWBox = document.getElementsByClassName("linkW");
 var linkPFVBox = document.getElementsByClassName("linkPFV");
+var linkTsundokuBox = document.getElementsByClassName("linkTsundoku");
 var linkPWBox = document.getElementsByClassName("linkPW");
 var boxLabel = document.getElementsByClassName("box-label");
 var boxDoc = document.getElementById("box-doc");
