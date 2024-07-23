@@ -59,11 +59,9 @@ h3 {
 .parent .box.linkW {
     /* background: url("public/images/bitmap2.png") no-repeat 0 0; */
     background: url("public/images/sarahWordle.jpg") no-repeat 0 0;
-    /* background-size: 50%; */
     background-size: 100%; 
     background-position-x: center;
     background-position-y: 80px;
-    /* filter: blur(10px); */
     transition: background-size 1s, background-position-x 1s, background-position-y 1s;
 }
 
@@ -76,13 +74,10 @@ h3 {
 }
 
 .parent .box.linkPW {
-    /* background: url("public/images/bitmap2.png") no-repeat 0 0; */
     background: url("public/images/personalwebsite.jpg") no-repeat 0 0;
-    /* background-size: 50%; */
     background-size: 100%; 
     background-position-x: center;
     background-position-y: 80px;
-    /* filter: blur(10px); */
     transition: background-size 1s, background-position-x 1s, background-position-y 1s;
 }
 
@@ -133,6 +128,18 @@ h3 {
 }
 
 .linkW:hover{
+    color: black;
+    text-decoration:none
+}
+
+.linkTsundoku
+{
+   color:black;
+   text-decoration: none; 
+   background-color: none;
+}
+
+.linkTsundoku:hover{
     color: black;
     text-decoration:none
 }
