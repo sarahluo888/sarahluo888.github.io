@@ -52,6 +52,9 @@ function nightMode (){
         for (let box of linkWBox){
           box.style.color = "white";
         } 
+        for (let box of linkTsundokuBox){
+          box.style.color = "white";
+        } 
         for (let box of linkPWBox){
           box.style.color = "white";
         } 
@@ -116,6 +119,9 @@ function lightMode (){
         box.style.color = "black";
     }
     for (let box of linkWBox){
+      box.style.color = "black";
+    } 
+    for (let box of linkTsundokuBox){
       box.style.color = "black";
     } 
     for (let box of linkPWBox){
